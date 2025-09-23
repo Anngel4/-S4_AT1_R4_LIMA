@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #fa4747;
+    text-shadow: rgba(125, 65, 65, 0.6)
+}
+
+header {
+    background: #fed2d2;
+    padding: 1rem;
+    border-radius: 5px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav {
+    margin-top: 0.5rem;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 1rem;
+    font-weight: bold;
+}
+
+nav a:hover {
+    /*hover muda algo quando passa
+        o cursor do mouse encima*/
+    text-decoration: underline;
+}
+
+/* Estilos para as sections */
+.secao {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 2rem;
+}
+
+/* Backgrounds diferentes */
+.sobre {
+    background: linear-gradient(to top, #fed2d2, #ffffff);
+}
+.sobre img{
+    border-radius: 50px;
+}
+
+.como_funciona {
+    background: linear-gradient(to top, #fed2d2, #ffffff);
+}
+
+.fundadores {
+    background: linear-gradient(to top, #fed2d2, #ffffff);
+}
+
+.fundadores img{
+    border-radius: 50px;
+    size: 1px;
+}
+
+.contato {
+    background: linear-gradient(to top, #fed2d2, #ffffff);
+}
+
+footer {
+    background: #ff8181;
+    text-align: center;
+    padding: 1rem;
+    border-radius: 50px;
+}
