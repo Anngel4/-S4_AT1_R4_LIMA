@@ -10,12 +10,16 @@ header {
     padding: 1rem;
     border-radius: 5px;
     text-align: center;
-    position: sticky;
     top: 0;
 }
 
 header h1 {
     margin: 0;
+}
+
+header img{
+    width: 120px;
+    border-radius: 100px;
 }
 
 nav {
@@ -33,6 +37,12 @@ nav a:hover {
     /*hover muda algo quando passa
         o cursor do mouse encima*/
     text-decoration: underline;
+}
+
+h3{
+    text-decoration: overline;
+    width: 1000px;
+    text-align: calc(1000);
 }
 
 /* Estilos para as sections */
@@ -57,14 +67,17 @@ nav a:hover {
 .como_funciona {
     background: linear-gradient(to top, #fed2d2, #ffffff);
 }
+.como_funciona img{
+    border-radius: 100px;
+}
 
 .fundadores {
     background: linear-gradient(to top, #fed2d2, #ffffff);
 }
 
 .fundadores img{
-    border-radius: 50px;
-    size: 1px;
+    border-radius: 70px;
+    size: 20px;
 }
 
 .contato {
@@ -76,4 +89,6 @@ footer {
     text-align: center;
     padding: 1rem;
     border-radius: 50px;
+    position: sticky;
+
 }
